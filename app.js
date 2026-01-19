@@ -1,4 +1,7 @@
+// ------------------------------Chapter- 49 to 52------------------------------------
+
 // Q1
+
 function showData() {
       var name = document.getElementById("name").value;
       var email = document.getElementById("email").value;
@@ -9,7 +12,9 @@ function showData() {
         "Email: " + email + "<br>" +
         "Password: " + password;
     }
+
     // Q2
+
      function readMore() {
       var dots = document.getElementById("dots");
       var moreText = document.getElementById("moreText");
@@ -25,7 +30,9 @@ function showData() {
         btn.innerHTML = "Read Less";
       }
     }
+
     // Q3
+
     var selectedRow = null;
 
     function addStudent() {
