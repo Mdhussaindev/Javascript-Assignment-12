@@ -1,0 +1,72 @@
+body {
+      font-family: Arial;
+    }
+    .box {
+      width: 300px;
+      padding: 15px;
+      border: 1px solid #333;
+    }
+    .box label {
+    display: inline-block;
+    width: 90px;   /* ⭐ yahin magic hai */
+  }
+
+  .box input {
+    width: 170px;
+    box-sizing: border-box;
+  }
+  .box button {
+  display: block;
+  margin: 0 auto;
+}
+     
+    .content {
+      width: 400px;
+      border: 1px solid #333;
+      padding: 10px;
+    }
+    #moreText {
+      display: none;
+    }
+    .btn{
+      display: block;
+      margin: 0 auto;
+    }
+    .box2 {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #333;
+  }
+
+  .box2 label {
+    display: inline-block;
+    width: 90px;
+  }
+
+  .box2 input {
+    width: 170px;
+    box-sizing: border-box;
+  }
+
+  .box2 .btn-center {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+    table {
+      border-collapse: collapse;
+      margin-top: 20px;
+      width: 600px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    #editForm {
+      display: none;
+      margin-top: 20px;
+      border: 1px solid #333;
+      padding: 10px;
+      width: 300px;
+    }
