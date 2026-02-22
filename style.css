@@ -8,7 +8,7 @@ body {
     }
     .box label {
     display: inline-block;
-    width: 90px;   /* ⭐ yahin magic hai */
+    width: 90px;   
   }
 
   .box input {
